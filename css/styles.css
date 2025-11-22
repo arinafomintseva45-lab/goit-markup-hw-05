@@ -513,6 +513,16 @@ background-color: #404bbf;
 .svg-icons {
     fill: #f4f4fd;
 }
+form{
+    display: block;
+    gap: 24px;
+    
+}
+.footer-icon{
+    margin-left: 16px;
+    fill: #fff;
+
+}
 .fon{
     position: fixed;
     top: 0;
