@@ -395,6 +395,8 @@ img{
 }
 .container-subscribe{
     margin-left: 80px;
+    display: flex;
+    
 }
 .subscribe-title{
     font-weight: 500;
@@ -514,7 +516,7 @@ background-color: #404bbf;
     fill: #f4f4fd;
 }
 form{
-    display: block;
+    display: flex;
     gap: 24px;
     
 }
