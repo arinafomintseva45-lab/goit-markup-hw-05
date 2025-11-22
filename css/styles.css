@@ -478,8 +478,14 @@ color: #404bbf;
 .main-button:hover,
 .main-button:focus,
 .icon-link:hover,
-.icon-link:focus{
+.icon-link:focus,
+.button-close:hover,
+.button-close:focus{
 background-color: #404bbf;
+}
+.button-close:hover,
+.button-close:focus{
+    border: none;
 }
 .categories-icons {
     display: flex;
@@ -526,6 +532,7 @@ background-color: #404bbf;
 
 }
 .fon{
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -574,9 +581,17 @@ background-color: #404bbf;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-svg{
-    fill: #2e2f42;
+    fill: #ffffff;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.close-svg:focus,
+.close-svg:hover{
+    fill: #ffffff;
+}
+input:focus{
+    border-color: #4D5AE5; 
+}
+
 .title-cv{
     font-weight: 500;
     font-size: 16px;
