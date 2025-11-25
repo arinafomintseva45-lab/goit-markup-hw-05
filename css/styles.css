@@ -641,7 +641,9 @@ form{
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox{
+
+
+.form-com{
     margin-bottom: 16px;
 }
 .cv-comment{
