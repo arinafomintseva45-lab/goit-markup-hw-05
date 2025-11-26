@@ -588,7 +588,8 @@ background-color: #404bbf;
 .close-svg:hover{
     fill: #ffffff;
 }
-input:focus{
+input:focus,
+textarea:focus{
     border-color: #4D5AE5; 
 }
 .cv-input:focus + .input-svg {
@@ -665,7 +666,7 @@ form{
 .privat{
     margin-bottom: 24px;
 }
-.visually{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -706,3 +707,15 @@ form{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
+.nike-span{
+    width: 16px; 
+    height: 16px; 
+    border: 1px solid rgba(46, 47, 66, 0.4); 
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center;
+    fill: transparent;
+            
+        }
